@@ -1,0 +1,47 @@
+/* Set body background image and default font size */
+body {
+  font-size: 18px;
+  background-image: url("images/bg-grass.jpg");
+}
+
+/* Round out corners of images */
+img {
+  border-radius: 5px;
+}
+
+.heading-text {
+  color: #fff;
+}
+
+/* Set container background colour and
+   add some curve to the corners of the element */
+.container-bg {
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+/* Hide 3rd container by default */
+#container-3 {
+  display: none;
+}
+
+/* Set the nav and drop down colour styles */
+.nav-color,
+.nav-color a,
+.dropdown-color {
+  color: #fff;
+  background-color: #497d54;
+}
+
+.dropdown-color {
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+
+/* Highlight h2 elements and certain words in welcome text */
+h2,
+.highlight {
+  font-weight: 500;
+  text-shadow: 1px 1px #497d54;
+  font-style: italic;
+}
